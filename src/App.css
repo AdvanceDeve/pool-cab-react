@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/roboto/Roboto-VariableFont_wdth_wght.ttf") format("truetype");
+}
+ 
+.top-header{
+  height: 40%;
+  background-color: orange;
+  padding: 10px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+}
+
+h1, h2, h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700; /* Bold */
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; /* Regular */
+}
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__input-container input {
+  width: 100%;
+  height: 38px; /* Match Bootstrap input height */
+  padding: 6px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.react-datepicker {
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.react-datepicker-popper {
+  z-index: 1050 !important; /* Ensures it appears above the modal */
+}
+
+
+.list-iteam {
+  background:#fff;
+  border-radius:15px;
+  padding:10px;
+  margin-top: 20px;
+  width: 100%;
+  /* max-width: 703px; */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  /* text-align: center; */
+}
+
