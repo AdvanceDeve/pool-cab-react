@@ -5,7 +5,7 @@ const Bootombar = () => {
   const currentUrl = useLocation();
   let _class = '';
   let _homeClass = '';
-  if (currentUrl.pathname == '/' || currentUrl.pathname == '/login') {
+  if (currentUrl.pathname == '/' || currentUrl.pathname == '/login' || currentUrl.pathname == '/register') {
     _class = 'd-none';
   } else {
     var _userDetail = sessionStorage.getItem('userDetail');

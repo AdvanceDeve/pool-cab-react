@@ -132,7 +132,7 @@ const Login = () => {
             </Link>
           </p>
 
-          <Button type="submit" variant="warning" className="w-100 py-2 fw-bold">
+          <Button type="submit" variant="warning" className="w-100 py-2 fw-bold text-white">
             Submit
           </Button>
         </Form>
